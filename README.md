@@ -1,2 +1,4 @@
 # DigitalPythonClock
-A digital clock using python
+Feito usando as bibliotecas TKinter e Datetime
+
+
