@@ -1,17 +1,18 @@
 #Bibliotecas Importadas
 from operator import iconcat
+import tkinter
 from tkinter import *
-import tkinter 
+import tkinter as tk
 from datetime import datetime
 
 cor1 = '#3d3d3d' #Cor Preta Fundo
 cor2 = '#FFFFFF' #Cor Branca Texto
 
+
 #Configuração Janela
 janela=Tk()
 janela.title('Relogio')
 janela.geometry("330x150")
-janela.iconbitmap('icon.ico')
 janela.configure(bg=cor1)
 janela.resizable(width=FALSE, height=FALSE)
 
